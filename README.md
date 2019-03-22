@@ -16,7 +16,8 @@
 暂无
 ```
 ## 类目
-#### :telephone_receiver:[手机](https://search.jd.com/Search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&wq=&pvid=e7b33af1d11d4f70b6d8bdfb8fc7be87)
+:telephone_receiver:[手机](https://search.jd.com/Search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&wq=&pvid=e7b33af1d11d4f70b6d8bdfb8fc7be87)
+#### 爬取字段：
 - **商品id (id)**
 - **商品标题 (title)**
 - **商品详情页网址 (url)**

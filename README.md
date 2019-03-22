@@ -13,4 +13,12 @@
 - **商品标题 (title)**
 - **商品详情页网址 (url)**
 - **商品的网店名称 (shop_name)**
-- **商品的网店名称 (shop_name)**
+- **商品价格 (price)**
+- **商品牌子 (brand)**
+- **商品型号 (model)**
+- **商品评论数量 (comment_count)**
+- **商品好评数 (good_count)**
+- **商品中评数 (general_count)**
+- **商品差评数 (poor_count)**
+- **商品展示数 (show_count)**
+- **商品爬取时间 (crawl_date)**

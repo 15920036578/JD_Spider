@@ -8,7 +8,7 @@
 ## 声明
 #### 任何内容都仅用于学习交流，请勿用于任何商业用途。
 ## 介绍
-#### 目前只有爬取[手机](https://search.jd.com/Search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&wq=&pvid=e7b33af1d11d4f70b6d8bdfb8fc7be87)这个类目<br>spider里有详细过程注释，请放心食用
+#### 目前只有爬取[手机](https://search.jd.com/Search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&wq=&pvid=e7b33af1d11d4f70b6d8bdfb8fc7be87)这个类目<br>对应的spider里有详细过程注释，请放心食用
 ## 运行环境
 #### Version: Python3
 ## 安装依赖库

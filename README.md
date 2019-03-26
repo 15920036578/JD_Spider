@@ -1,5 +1,5 @@
 # 京东爬虫
-![](https://img.shields.io/badge/Python-3.5.3-green.svg)
+![](https://img.shields.io/badge/Python-3.5.3-green.svg) ![](https://img.shields.io/badge/Scrapy-1.5.1-green.svg)
 #### 京东官网 - https://www.jd.com
 |Author|Gobi Xu|
 |---|---|

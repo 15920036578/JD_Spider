@@ -5,7 +5,7 @@ __author__ = 'Gobi Xu'
 import scrapy
 import datetime
 import json
-from items import Jd_phoneItem
+from OnlineStore.items import Jd_phoneItem
 
 
 # 商品列表页的每一页都有 60个商品，但是请求商品列表页时，只会显示 前30个商品，剩下的30个商品 是下滑商品列表页时 异步加载 出来的

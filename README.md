@@ -20,6 +20,7 @@ pip install scrapy
 - **商品列表页是异步加载的**
 ###### 商品列表页的每一页都有60个商品，但是请求商品列表页时，只会显示前30个商品，剩下的30个商品是下滑商品列表页时异步加载出来的
 ###### 使用抓包的方法可以截取到剩下的30个商品的请求地址，请求地址尾部包含了前30个商品的商品id，头部信息里的Referer为商品列表页的请求地址
+![enter image description here](picture/30.jpg)
 ## 类目
 #### :telephone_receiver:[手机](https://search.jd.com/Search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&wq=&pvid=e7b33af1d11d4f70b6d8bdfb8fc7be87)
 #### 爬取字段：

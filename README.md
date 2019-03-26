@@ -10,6 +10,7 @@
 ## 前言
 #### 简单说明
 - **请求时不需要携带cookies（即不需要先登录），过程相对轻松**
+- **需要爬取的数据通过请求地址携带参数即可得到**
 ## 运行环境
 #### Version: Python3
 ## 安装依赖库
@@ -17,12 +18,14 @@
 pip install scrapy
 ```
 ## 细节
-- **商品列表页是异步加载的**
+- **商品列表页后半部分是异步加载的**
 ###### 商品列表页的每一页都有60个商品，但是请求商品列表页时，只会显示前30个商品，剩下的30个商品是下滑商品列表页时异步加载出来的
 ###### 使用抓包的方法可以截取到剩下的30个商品的请求地址，请求地址尾部包含了前30个商品的商品id，头部信息里的Referer为商品列表页的请求地址
 ![enter image description here](picture/30.jpg)
 <br><br>
 ![enter image description here](picture/referer.jpg)
+- **请求地址的参数**
+###### 商品列表页一共100页。第一页的请求地址中page参数为1，第一页的剩下30个商品的请求地址中page参数为2。第二页的请求地址中page参数为3，第二页的 剩下30个商品的请求地址中page参数为4....以此类推
 ## 类目
 #### :telephone_receiver:[手机](https://search.jd.com/Search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&wq=&pvid=e7b33af1d11d4f70b6d8bdfb8fc7be87)
 #### 爬取字段：

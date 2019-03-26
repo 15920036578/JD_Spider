@@ -33,4 +33,3 @@
 - **商品中评数 (general_count)**
 - **商品差评数 (poor_count)**
 - **商品展示数 (show_count)**
-- **商品爬取时间 (crawl_date)**

@@ -33,3 +33,6 @@ pip install scrapy
 - **商品中评数 (general_count)**
 - **商品差评数 (poor_count)**
 - **商品展示数 (show_count)**
+## 最后
+#### 对应的spider里有大量注释，请放心食用:meat_on_bone:
+#### 如有任何问题都可以邮箱:email:联系我，我会尽快回复你。
